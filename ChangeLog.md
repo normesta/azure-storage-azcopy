@@ -1,5 +1,11 @@
 # Change Log
 
+## Version XX.XX.XX
+
+### New features
+
+1. SAS tokens are supported on ADLS Gen 2/dfs.core.windows.net endpoints
+
 ## Version 10.1.2
 
 ### Breaking change
