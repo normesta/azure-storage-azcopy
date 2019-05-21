@@ -1,5 +1,11 @@
 # Change Log
 
+## Version XX.XX.XX
+
+## New features
+
+1. Enabled copying to/from page/block/append blob to another blob of a different type
+
 ## Version 10.1.2
 
 ### Breaking change
