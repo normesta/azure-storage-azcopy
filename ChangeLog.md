@@ -1,5 +1,11 @@
 # Change Log
 
+## Version XX.XX.XX
+
+### New features
+
+1. Service Principal Authentication is now available under `azcopy login`-- check `azcopy env` for details on client secrets/cert passwords. 
+
 ## Version 10.1.2
 
 ### Breaking change
