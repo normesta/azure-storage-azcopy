@@ -6,24 +6,24 @@ AzCopy (v10) is the next-generation command-line utility designed for copying da
 
 ## Features
 
-* Copy data from Azure Blob containers/File shares to File system, and vice versa
-* Copy block blobs between two Azure Storage accounts
-* Sync a directory in local file system to Azure Blob, or vice versa
-* List/Remove files and blobs in a given path
-* Supports glob patterns in path, and --exclude flags
-* Resillient: retries automatically after a failure, and supports resuming after a failed job
+:heavy_check_mark: Copy data from Azure Blob containers/File shares to File system, and vice versa.
+:heavy_check_mark: Copy block blobs between two Azure Storage accounts.
+:heavy_check_mark: Sync a directory in local file system to Azure Blob, or vice versa.
+:heavy_check_mark: List/Remove files and blobs in a given path.
+:heavy_check_mark: Supports glob patterns in path, and --exclude flags.
+:heavy_check_mark: Resillient: retries automatically after a failure, and supports resuming after a failed job.
 
 ## What's new in v10 ? 
 
-* Synchronize a file system up to Azure Blob or vice versa. Use `azcopy sync <source> <destination>`
-* Supports Azure Data Lake Storage Gen2. Use `myaccount.dfs.core.windows.net` for the URI to use ADLS Gen2 APIs.
-* Supports copying an entire account (Blob service only) to another account. Use `azcopy cp https://myaccount.blob.core.windows.net https://myotheraccount.blob.core.windows.net` which will enumerate all Blob containers and copy to the destination account
-* Supports [copying data from AWS S3](https://github.com/Azure/azure-storage-azcopy/wiki/Copy-from-AWS-S3)
-* Account to account copy is now using the new Put from URL APIs that will copy the data directly from one storage account to another. No data transfer is needed down to the client where AzCopy runs. Therefore it is significantly faster!
-* List/Remove files and blobs in a given path
-* Supports glob patterns in path, and --exclude flags
-* Every AzCopy run will create a job order, and a related log file. You can view and restart previous jobs using `azcopy jobs` command.
-* Improved performance all around!
+:heavy_check_mark: Synchronize a file system up to Azure Blob or vice versa. Use `azcopy sync <source> <destination>`
+:heavy_check_mark: Supports Azure Data Lake Storage Gen2. Use `myaccount.dfs.core.windows.net` for the URI to use ADLS Gen2 APIs.
+:heavy_check_mark: Supports copying an entire account (Blob service only) to another account. Use `azcopy cp https://myaccount.blob.core.windows.net https://myotheraccount.blob.core.windows.net` which will enumerate all Blob containers and copy to the destination account
+:heavy_check_mark: Supports [copying data from AWS S3](https://github.com/Azure/azure-storage-azcopy/wiki/Copy-from-AWS-S3)
+:heavy_check_mark: Account to account copy is now using the new Put from URL APIs that will copy the data directly from one storage account to another. No data transfer is needed down to the client where AzCopy runs. Therefore it is significantly faster!
+:heavy_check_mark: List/Remove files and blobs in a given path
+:heavy_check_mark: Supports glob patterns in path, and --exclude flags
+:heavy_check_mark: Every AzCopy run will create a job order, and a related log file. You can view and restart previous jobs using `azcopy jobs` command.
+:heavy_check_mark: Improved performance all around!
 
 ## Installation
 
