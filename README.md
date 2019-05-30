@@ -26,6 +26,11 @@ AzCopy (v10) is the next-generation command-line utility designed for copying da
 
 :heavy_check_mark: Improved performance all around!
 
+> [!div class="checklist"]
+> * Extract and upload the data to an HDInsight cluster.
+> * Transform the data by using Apache Hive.
+> * Load the data to an Azure SQL database by using Sqoop.
+
 ## Get started
 
 For complete guidance about how to install and use AzCopy V10, see [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10?toc=%2fazure%2fstorage%2fblobs%2ftoc.json).
