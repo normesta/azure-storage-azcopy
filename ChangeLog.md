@@ -1,5 +1,12 @@
 # Change Log
 
+## Version XX.XX.XX
+
+### Bug fix
+
+1. Long file paths are now supported on Windows without registry changes.
+2. Using `.` to specify the current working directory no longer causes an out-of-bounds panic on download
+
 ## Version 10.1.2
 
 ### Breaking change
