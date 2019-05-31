@@ -6,21 +6,21 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 ## Features and capabilities
 
-:small_blue_cicle: Create containers and file shares.
+:white_check_mark: Create containers and file shares.
 
-:small_blue_diamond: Upload files and folders
+:white_check_mark: Upload files and folders
 
-:small_blue_diamond: Download files and folders
+:white_check_mark: Download files and folders
 
-:small_blue_diamond: Copy containers, folders and blobs between storage accounts
+:white_check_mark: Copy containers, folders and blobs between storage accounts
 
-:small_blue_diamond: Synchronize containers with local file systems and visa versa
+:white_check_mark: Synchronize containers with local file systems and visa versa
 
-:small_blue_diamond: Copy objects, folders, and buckets from Amazon Web Services (AWS)
+:white_check_mark: Copy objects, folders, and buckets from Amazon Web Services (AWS)
 
-:small_blue_diamond: List blobs in a container
+:white_check_mark: List blobs in a container
 
-:small_blue_diamond: Remove blobs from a container.
+:white_check_mark: Remove blobs from a container.
 
 ## Find help
 
