@@ -6,6 +6,8 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 ## Features and capabilities
 
+:white_check_mark: Use with storage accounts that have a hierarchical namespace (Azure Data Lake Storage Gen2).
+
 :white_check_mark: Create containers and file shares.
 
 :white_check_mark: Upload files and folders.
@@ -18,11 +20,9 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 :white_check_mark: Copy objects, folders, and buckets from Amazon Web Services (AWS) (Blobs only)
 
-:white_check_mark: List blobs in a container.
+:white_check_mark: List files in a container (Blobs only).
 
-:white_check_mark: Remove blobs from a container.
-
-:white_check_mark: Use with blobs that have a hierarchical namespace (Azure Data Lake Storage Gen2).
+:white_check_mark: Remove files from a container (Blobs only).
 
 :white_check_mark: Recover from failures by restarting previous jobs.
 
@@ -58,7 +58,7 @@ then `sync` is the better choice, since only the modified/missing files are tran
 
 ### Will `copy` overwrite my files?
 
-By default, AzCopy will overwrite the files at the destination if they already exist. To avoid this behavior, please use the flag `--overwrite=false`. 
+By default, AzCopy will overwrite the files at the destination if they already exist. To avoid this behavior, please use the flag `--overwrite=false`.
 
 ## How to contribute to AzCopy v10
 
