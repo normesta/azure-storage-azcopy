@@ -40,7 +40,7 @@ For complete guidance, visit any of these articles on the docs.microsoft.com web
 
 ### Find help from your command prompt
 
-First, add AzCopy to your system path, and then open a command prompt window.
+Be sure to add AzCopy to your system path. Then, open a command prompt window.
 
 To see a list of commands, type `azcopy` and then press the ENTER key.
 
