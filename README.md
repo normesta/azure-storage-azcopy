@@ -6,34 +6,34 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 ## Features and capabilities
 
-:small_orange_diamond: Create containers and file shares.
+:small_blue_diamond: Create containers and file shares.
 
-:small_orange_diamond: Upload files and folders
+:small_blue_diamond: Upload files and folders
 
-:small_orange_diamond: Download files and folders
+:small_blue_diamond: Download files and folders
 
-:small_orange_diamond: Copy containers, folders and blobs between storage accounts
+:small_blue_diamond: Copy containers, folders and blobs between storage accounts
 
-:small_orange_diamond: Synchronize containers with local file systems and visa versa
+:small_blue_diamond: Synchronize containers with local file systems and visa versa
 
-:small_orange_diamond: Copy objects, folders, and buckets from Amazon Web Services (AWS)
+:small_blue_diamond: Copy objects, folders, and buckets from Amazon Web Services (AWS)
 
-:small_orange_diamond: List blobs in a container
+:small_blue_diamond: List blobs in a container
 
-:small_orange_diamond: Remove blobs from a container.
+:small_blue_diamond: Remove blobs from a container.
 
 ## Find help
 
 See any of these articles on the docs.microsoft.com website.
 
-:small_orange_diamond: [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
+:small_blue_diamond: [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
  [Transfer data with AzCopy and blob storage](storage-use-azcopy-blobs.md)
 
-:small_orange_diamond: [Transfer data with AzCopy and file storage](storage-use-azcopy-files.md)
+:small_blue_diamond: [Transfer data with AzCopy and file storage](storage-use-azcopy-files.md)
 
-:small_orange_diamond: [Transfer data with AzCopy and Amazon S3 buckets](storage-use-azcopy-s3.md)
+:small_blue_diamond: [Transfer data with AzCopy and Amazon S3 buckets](storage-use-azcopy-s3.md)
 
-:small_orange_diamond: [Configure, optimize, and troubleshoot AzCopy](storage-use-azcopy-configure.md)
+:small_blue_diamond: [Configure, optimize, and troubleshoot AzCopy](storage-use-azcopy-configure.md)
 
 After you've downloaded AzCopy v10, you can also find help about commands and command parameters directly out of your command prompt window.
 
