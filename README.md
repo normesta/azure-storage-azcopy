@@ -8,19 +8,28 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 :white_check_mark: Create containers and file shares.
 
-:white_check_mark: Upload files and folders
+:white_check_mark: Upload files and folders.
 
-:white_check_mark: Download files and folders
+:white_check_mark: Download files and folders.
 
-:white_check_mark: Copy containers, folders and blobs between storage accounts
+:white_check_mark: Copy containers, folders and blobs between storage accounts (Blobs only)
 
-:white_check_mark: Synchronize containers with local file systems and visa versa
+    These copy operations don't use the network bandwidth of your computer because AzCopy uses the Put Block From URL API. so data is copied directly between storage servers.
 
-:white_check_mark: Copy objects, folders, and buckets from Amazon Web Services (AWS)
+:white_check_mark: Synchronize containers with local file systems and visa versa (Blobs only)
 
-:white_check_mark: List blobs in a container
+:white_check_mark: Copy objects, folders, and buckets from Amazon Web Services (AWS) (Blobs only)
+
+:white_check_mark: List blobs in a container.
 
 :white_check_mark: Remove blobs from a container.
+
+:white_check_mark: Use with blobs that have a hierarchical namespace (Azure Data Lake Storage Gen2).
+
+:white_check_mark: Copy or sync operations automatically retry after a failure.
+
+:white_check_mark: Manually resume copy or sync operations after a failure.
+
 
 ## Find help
 
