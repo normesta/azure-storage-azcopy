@@ -1,8 +1,6 @@
 # AzCopy v10
 
-AzCopy v10 is a command-line utility that you can use to you copy data to and from containers and file shares in Azure Storage accounts. 
-
-AzCopy V10 provides you with simpler commands that are optimized for performance.
+AzCopy v10 is a command-line utility that you can use to you copy data to and from containers and file shares in Azure Storage accounts. AzCopy V10 gives you easy-to-use commands that are optimized for performance.
 
 ## Features and capabilities
 
