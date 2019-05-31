@@ -12,11 +12,11 @@ AzCopy v10 is a command-line utility that you can use to copy data to and from c
 
 :white_check_mark: Download files and folders.
 
-:white_check_mark: Copy containers, folders and blobs between storage accounts (Blobs only)
+:white_check_mark: Copy containers, folders and blobs between storage accounts (Blobs only).
 
-:white_check_mark: Synchronize containers with local file systems and visa versa (Blobs only)
+:white_check_mark: Synchronize containers with local file systems and visa versa (Blobs only).
 
-:white_check_mark: Copy objects, folders, and buckets from Amazon Web Services (AWS) (Blobs only)
+:white_check_mark: Copy objects, folders, and buckets from Amazon Web Services (AWS) (Blobs only).
 
 :white_check_mark: List files in a container (Blobs only).
 
@@ -26,7 +26,7 @@ AzCopy v10 is a command-line utility that you can use to copy data to and from c
 
 ## Find help
 
-For complete guidance, see any of these articles on the docs.microsoft.com website.
+For complete guidance, visit any of these articles on the docs.microsoft.com website.
 
 :eight_spoked_asterisk: [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
 
@@ -40,7 +40,9 @@ For complete guidance, see any of these articles on the docs.microsoft.com websi
 
 ### Find help from your command prompt
 
-Add AzCopy to your system path and open a command prompt window. Then, to see a list of commands, type `azcopy` and then press the ENTER key.
+First, add AzCopy to your system path, and then open a command prompt window.
+
+To see a list of commands, type `azcopy` and then press the ENTER key.
 
 To learn about a specific command, type `azCopy` followed by the name of the command.
 
