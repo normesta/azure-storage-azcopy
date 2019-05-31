@@ -6,7 +6,7 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 ## Features and capabilities
 
-:small_blue_diamond: Create containers and file shares.
+:small_blue_cicle: Create containers and file shares.
 
 :small_blue_diamond: Upload files and folders
 
