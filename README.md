@@ -26,14 +26,14 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 See any of these articles on the docs.microsoft.com website.
 
-:small_blue_diamond: [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
+:eight_spoked_asterisk: [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
  [Transfer data with AzCopy and blob storage](storage-use-azcopy-blobs.md)
 
-:small_blue_diamond: [Transfer data with AzCopy and file storage](storage-use-azcopy-files.md)
+:eight_spoked_asterisk: [Transfer data with AzCopy and file storage](storage-use-azcopy-files.md)
 
-:small_blue_diamond: [Transfer data with AzCopy and Amazon S3 buckets](storage-use-azcopy-s3.md)
+:eight_spoked_asterisk: [Transfer data with AzCopy and Amazon S3 buckets](storage-use-azcopy-s3.md)
 
-:small_blue_diamond: [Configure, optimize, and troubleshoot AzCopy](storage-use-azcopy-configure.md)
+:eight_spoked_asterisk: [Configure, optimize, and troubleshoot AzCopy](storage-use-azcopy-configure.md)
 
 After you've downloaded AzCopy v10, you can also find help about commands and command parameters directly out of your command prompt window.
 
