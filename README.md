@@ -6,7 +6,7 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 ## Features and capabilities
 
-:white_check_mark: Create containers and file shares.
+:ballot_box_with_check: Create containers and file shares.
 
 :white_check_mark: Upload files and folders.
 
