@@ -14,7 +14,7 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 :white_check_mark: Copy containers, folders and blobs between storage accounts (Blobs only)
 
-    These operations are very efficient because they copy data directly between storage accounts. no data is transferred to the client.
+   These operations are very efficient because they copy data directly between storage accounts. no data is transferred to the client.
 
 :white_check_mark: Synchronize containers with local file systems and visa versa (Blobs only)
 
@@ -27,9 +27,6 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 :white_check_mark: Use with blobs that have a hierarchical namespace (Azure Data Lake Storage Gen2).
 
 :white_check_mark: Recover from failures by restarting previous jobs.
-
-> [!NOTE]
-> Copy or sync operations automatically retry after a failure.
 
 ## Find help
 
