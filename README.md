@@ -1,8 +1,45 @@
 # AzCopy v10
 
-AzCopy v10 is the next-generation command-line utility designed to help you copy data to and from containers and file shares in Azure Storage accounts. AzCopy V10 provides you with simpler commands that are optimized for performance.
+AzCopy v10 is the next-generation command-line utility that is designed to help you copy data to and from containers and file shares in Azure Storage accounts. AzCopy V10 provides you with simpler commands that are optimized for performance.
 
 For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10?toc=%2fazure%2fstorage%2fblobs%2ftoc.json).
+
+## Features and capabilities
+
+:small_orange_diamond: Create containers and file shares.
+
+:small_orange_diamond: Upload files and folders
+
+:small_orange_diamond: Download files and folders
+
+:small_orange_diamond: Copy containers, folders and blobs between storage accounts
+
+:small_orange_diamond: Synchronize containers with local file systems and visa versa
+
+:small_orange_diamond: Copy objects, folders, and buckets from Amazon Web Services (AWS)
+
+:small_orange_diamond: List blobs in a container
+
+:small_orange_diamond: Remove blobs from a container.
+
+## Find help
+
+See any of these articles on the docs.microsoft.com website.
+
+:small_orange_diamond: [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
+ [Transfer data with AzCopy and blob storage](storage-use-azcopy-blobs.md)
+
+:small_orange_diamond: [Transfer data with AzCopy and file storage](storage-use-azcopy-files.md)
+
+:small_orange_diamond: [Transfer data with AzCopy and Amazon S3 buckets](storage-use-azcopy-s3.md)
+
+:small_orange_diamond: [Configure, optimize, and troubleshoot AzCopy](storage-use-azcopy-configure.md)
+
+After you've downloaded AzCopy v10, you can also find help about commands and command parameters directly out of your command prompt window.
+
+Just navigate to the directory where you downloaded the file, and then to view a list of AzCopy commands, type `azCopy`, and then press the ENTER key.
+
+To learn about a specific command, type `azCopy` followed by the name of the command. For example, to learn about the copy command, type `azcopy copy`, and then press the ENTER key.
 
 ## Frequently asked questions
 
