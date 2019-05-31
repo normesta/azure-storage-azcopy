@@ -6,40 +6,38 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 ## Features and capabilities
 
-:ballot_box_with_check: Create containers and file shares.
+:white_check_mark: Create containers and file shares.
 
-:ballot_box_with_check: Upload files and folders.
+:white_check_mark: Upload files and folders.
 
-:ballot_box_with_check: Download files and folders.
+:white_check_mark: Download files and folders.
 
-:ballot_box_with_check: Copy containers, folders and blobs between storage accounts (Blobs only)
+:white_check_mark: Copy containers, folders and blobs between storage accounts (Blobs only)
 
-:small_blue_diamond: These operations are very efficient because they copy data directly between storage accounts. no data is transferred to the client.
+:white_check_mark: Synchronize containers with local file systems and visa versa (Blobs only)
 
-:ballot_box_with_check: Synchronize containers with local file systems and visa versa (Blobs only)
+:white_check_mark: Copy objects, folders, and buckets from Amazon Web Services (AWS) (Blobs only)
 
-:ballot_box_with_check: Copy objects, folders, and buckets from Amazon Web Services (AWS) (Blobs only)
+:white_check_mark: List blobs in a container.
 
-:ballot_box_with_check: List blobs in a container.
+:white_check_mark: Remove blobs from a container.
 
-:ballot_box_with_check: Remove blobs from a container.
+:white_check_mark: Use with blobs that have a hierarchical namespace (Azure Data Lake Storage Gen2).
 
-:ballot_box_with_check: Use with blobs that have a hierarchical namespace (Azure Data Lake Storage Gen2).
-
-:ballot_box_with_check: Recover from failures by restarting previous jobs.
+:white_check_mark: Recover from failures by restarting previous jobs.
 
 ## Find help
 
 For complete guidance, see any of these articles on the docs.microsoft.com website.
 
-:small_blue_diamond: [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
+:eight_spoked_asterisk: [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
  [Transfer data with AzCopy and blob storage](storage-use-azcopy-blobs.md)
 
-:small_blue_diamond: [Transfer data with AzCopy and file storage](storage-use-azcopy-files.md)
+:eight_spoked_asterisk: [Transfer data with AzCopy and file storage](storage-use-azcopy-files.md)
 
-:small_blue_diamond: [Transfer data with AzCopy and Amazon S3 buckets](storage-use-azcopy-s3.md)
+:eight_spoked_asterisk: [Transfer data with AzCopy and Amazon S3 buckets](storage-use-azcopy-s3.md)
 
-:small_blue_diamond: [Configure, optimize, and troubleshoot AzCopy](storage-use-azcopy-configure.md)
+:eight_spoked_asterisk: [Configure, optimize, and troubleshoot AzCopy](storage-use-azcopy-configure.md)
 
 ### Find help from your command prompt
 
