@@ -24,7 +24,7 @@ For complete guidance, see [Get started with AzCopy](https://docs.microsoft.com/
 
 ## Find help
 
-See any of these articles on the docs.microsoft.com website.
+For complete guidance, see any of these articles on the docs.microsoft.com website.
 
 :eight_spoked_asterisk: [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
  [Transfer data with AzCopy and blob storage](storage-use-azcopy-blobs.md)
@@ -35,11 +35,13 @@ See any of these articles on the docs.microsoft.com website.
 
 :eight_spoked_asterisk: [Configure, optimize, and troubleshoot AzCopy](storage-use-azcopy-configure.md)
 
-After you've downloaded AzCopy v10, you can also find help about commands and command parameters directly out of your command prompt window.
+### Find help from your command prompt
 
-Just navigate to the directory where you downloaded the file, and then to view a list of AzCopy commands, type `azCopy`, and then press the ENTER key.
+Add AzCopy to your system path and open a command prompt window. Then, to see a list of commands, type `azcopy` and then press the ENTER key.
 
-To learn about a specific command, type `azCopy` followed by the name of the command. For example, to learn about the copy command, type `azcopy copy`, and then press the ENTER key.
+To learn about a specific command, type `azCopy` followed by the name of the command.
+
+![AzCopy command help example](readme-command-prompt.png)
 
 ## Frequently asked questions
 
