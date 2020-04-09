@@ -1092,7 +1092,7 @@ func (cca *cookedCopyCmdArgs) getSuccessExitCode() common.ExitCode {
 	}
 }
 
-func (cca *cookedCopyCmdArgs) ReportProgressOrExit(lcm common.LifecycleMgr) {
+func (cca *cookedCopyCmdArgs) ReportProgressOrExit(lcm common.LifecycleMgr) (totalKnownCount uint32) {
 	// fetch a job status
 	var summary common.ListJobSummaryResponse
 	Rpc(common.ERpcCmd.ListJobSummary(), &cca.jobID, &summary)
@@ -1100,6 +1100,7 @@ func (cca *cookedCopyCmdArgs) ReportProgressOrExit(lcm common.LifecycleMgr) {
 	cleanupStatusString := fmt.Sprintf("Cleanup %v/%v", summary.TransfersCompleted, summary.TotalTransfers)
 
 	jobDone := summary.JobStatus.IsJobDone()
+	totalKnownCount = summary.TotalTransfers
 
 	// if json is not desired, and job is done, then we generate a special end message to conclude the job
 	duration := time.Now().Sub(cca.jobStartTime) // report the total run time of the job
@@ -1213,6 +1214,8 @@ Final Job Status: %v%s%s
 				summary.TransfersSkipped, summary.TotalTransfers, scanningString, perfString, throughputString, diskString)
 		}
 	})
+
+	return
 }
 
 func formatPerfAdvice(advice []common.PerformanceAdvice) string {
@@ -1366,7 +1369,7 @@ func init() {
 	// This flag is implemented only for Storage Explorer.
 	cpCmd.PersistentFlags().StringVar(&raw.listOfFilesToCopy, "list-of-files", "", "Defines the location of text file which has the list of only files to be copied.")
 	cpCmd.PersistentFlags().StringVar(&raw.exclude, "exclude-pattern", "", "Exclude these files when copying. This option supports wildcard characters (*)")
-	cpCmd.PersistentFlags().StringVar(&raw.forceWrite, "overwrite", "true", "Overwrite the conflicting files and blobs at the destination if this flag is set to true. (default 'true') Possible values include 'true', 'false', and 'prompt'.")
+	cpCmd.PersistentFlags().StringVar(&raw.forceWrite, "overwrite", "true", "Overwrite the conflicting files and blobs at the destination if this flag is set to true. (default 'true') Possible values include 'true', 'false', 'prompt', and 'ifSourceNewer'.")
 	cpCmd.PersistentFlags().BoolVar(&raw.autoDecompress, "decompress", false, "Automatically decompress files when downloading, if their content-encoding indicates that they are compressed. The supported content-encoding values are 'gzip' and 'deflate'. File extensions of '.gz'/'.gzip' or '.zz' aren't necessary, but will be removed if present.")
 	cpCmd.PersistentFlags().BoolVar(&raw.recursive, "recursive", false, "Look into sub-directories recursively when uploading from local file system.")
 	cpCmd.PersistentFlags().StringVar(&raw.fromTo, "from-to", "", "Optionally specifies the source destination combination. For Example: LocalBlob, BlobLocal, LocalBlobFS.")
